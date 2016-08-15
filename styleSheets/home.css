@@ -1,0 +1,299 @@
+body {
+    margin: 0;
+    padding: 0;
+}
+
+#main {
+    background-color: rgb(8, 26, 40);
+    /*-webkit-background-size: cover;*/
+    /*-moz-background-size: cover;*/
+    /*-o-background-size: cover;*/
+    /*background-size: cover;*/
+    margin: 0;
+    padding: 0;
+}
+
+/*background of part 1*/
+#main_part_1 {
+    width: 100%;
+    height: 100%;
+    margin: 0;
+    padding: 0;
+    background: url("../images/main_part_1_picture_7.jpg") no-repeat center center fixed;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+#main_part_1_text {
+    text-align: center;
+    vertical-align: middle;
+}
+
+#main_part_1_text_title {
+    font-size: 50px;
+    color: rgba(255, 255, 255, .9);
+}
+
+#main_part_1_text_explain {
+    font-size: 25px;
+    color: rgba(255, 255, 255, .8);
+}
+
+#main_part_1_button_own {
+    background-color: rgb(239, 133, 85);
+    border: none;
+    color: white;
+    padding: 12px 35px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 30px;
+    top: auto;
+    left: 100px;
+    /*right: 50%;*/
+}
+
+/*menubar of part 1*/
+#main_part_1_menubar {
+    background-color: rgb(239, 133, 85);
+}
+
+#main_part_1_menubar_ul {
+    list-style-type: none;
+    overflow: hidden;
+    margin: 0;
+    padding: 0;
+}
+
+.main_part_1_menubar_li {
+    float: left;
+    /*border-right: 1px solid rgb(10, 180, 250);*/
+}
+
+#main_part_1_menubar_li_help {
+    float: right;
+    /*border-left: 1px solid rgb(10, 180, 250);*/
+}
+
+.main_part_1_menubar_a {
+    background-color: rgb(239, 133, 85);
+    display: block;
+    padding: 15px;
+    text-decoration: none;
+}
+
+.main_part_1_menubar_li a:hover {
+    background-color: rgb(21, 220, 251);
+    text-decoration: none;
+}
+
+/*part 2*/
+#main_part_2 {
+    margin: 0;
+    padding: 0;
+    background-color: rgb(9, 17, 31);
+}
+
+#main_part_2_button_own {
+    background-color: rgb(13, 111, 140);
+    float: right;
+    border: none;
+    color: rgb(220, 230, 255);
+    padding: 12px 40px;
+    text-align: center;
+    text-decoration: none;
+    /*display: inline-block;*/
+    font-size: 16px;
+    margin-right: 50px;
+    cursor: pointer;
+    border-radius: 30px;
+    top: auto;
+    left: 100px;
+    /*right: 50%;*/
+}
+
+#main_part_2_text {
+    /*float: left;*/
+    font-size: 23px;
+    margin-left: 50px;
+    color: rgb(220, 230, 255);
+}
+
+/*part 3*/
+
+#main_part_3 {
+    margin: 0;
+    padding: 0;
+    width: 100%;
+    height: 100%;
+    /*background-color: rgb(240, 140, 80);*/
+    background-color: rgb(9, 17, 31); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(9, 17, 31), rgb(70, 160, 250)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(9, 17, 31), rgb(70, 160, 250)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(9, 17, 31), rgb(70, 160, 250)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(9, 17, 31), rgb(70, 160, 250)); /* Standard syntax */
+}
+
+#main_part_3_text_1_1 {
+    color: rgb(29, 189, 255);
+    text-align: center;
+    font-size: 40px;
+}
+
+#main_part_3_text_1_2 {
+    color: rgb(10, 50, 70);
+    text-align: center;
+    font-size: 22px;
+}
+#main_part_3_image_1{
+    float:none;
+    width: 75%;
+    height: auto;
+}
+#main_part_3_text_2{
+    color: white;
+    overflow: hidden;
+    background-color: rgb(70, 80, 160);
+    /*float: right;*/
+    text-align: center;
+    margin-right: 50px;
+    margin-left: 50px;
+}
+#main_part_3_text_2_title{
+    font-size: 30px;
+    margin: 5px;
+}
+#main_part_3_text_2_explain{
+    font-size: 15px;
+    margin: 10px;
+}
+
+/*part 4*/
+#main_part_4{
+    overflow: auto;
+    background-color: rgb(70, 160, 250); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(70, 160, 250), rgb(150, 220, 255)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(70, 160, 250), rgb(150, 220, 255)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(70, 160, 250), rgb(150, 220, 255)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(70, 160, 250), rgb(150, 220, 255)); /* Standard syntax */
+}
+
+
+/*text 1*/
+
+#main_part_4_text_1{
+    margin-left: 100px;
+    margin-right: 100px;
+    text-align: left;
+
+}
+#main_part_4_text_1_title{
+    color: rgb(15, 70, 90);
+    font-size: 30px;
+}
+
+#main_part_4_text_1_explain{
+    color: rgb(15, 70, 90);
+    margin-top: 100px;
+    font-size: 18px;
+    line-height: 200%;
+}
+#main_part_4_text_1_image{
+    /*width: 100%;*/
+    /*height: auto;*/
+    width: 400px;
+    height:auto;
+    float: right;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-bottom: 100px;
+}
+
+
+/*part 5*/
+#main_part_5{
+    overflow: auto;
+    background-color: rgb(70, 160, 250); /* For browsers that do not support gradients */
+    background: -webkit-linear-gradient(rgb(150, 220, 255), rgb(90, 40, 90)); /* For Safari 5.1 to 6.0 */
+    background: -o-linear-gradient(rgb(150, 220, 255), rgb(90, 40, 90)); /* For Opera 11.1 to 12.0 */
+    background: -moz-linear-gradient(rgb(150, 220, 255), rgb(90, 40, 90)); /* For Firefox 3.6 to 15 */
+    background: linear-gradient(rgb(150, 220, 255), rgb(90, 40, 90)); /* Standard syntax */
+}
+
+#main_part_5_text{
+    text-align: center;
+    /*color: rgb(70, 30, 70);*/
+}
+#main_part_5_text_title{
+    color: rgb(70, 30, 70);
+    font-size: 40px;
+    margin-bottom: 50px;
+}
+#main_part_5_text_explain{
+    color: rgb(70, 30, 70);
+    font-size: 20px;
+}
+
+/*company 1*/
+
+#main_part_5_google{
+    float: left;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+
+#main_part_5_microsoft{
+    float: right;
+    text-align: center;
+    margin-top: 100px;
+    margin-left: 100px;
+    margin-right: 100px;
+}
+
+#main_part_5_microsoft_text_title{
+     font-size: 20px;
+    text-align: center;
+ }
+#main_part_5_microsoft_text_explain{
+    font-size: 15px;
+    text-align: center;
+}
+
+#main_part_5_google_text_title{
+    font-size: 20px;
+    text-align: center;
+}
+
+#main_part_5_google_text_explain{
+    font-size:15px;
+    text-align: center;
+}
+/*part 6*/
+
+#main_part_6{
+    background-color: black;
+}
+
+
+
+/*change scroll bar */
+::-webkit-scrollbar {
+    width: 12px;
+    height: 12px;
+}
+
+::-webkit-scrollbar-track {
+    background-color: rgb(190, 240, 255);
+}
+
+::-webkit-scrollbar-thumb {
+    background-color: rgba(10, 110, 180, 0.8);
+}
